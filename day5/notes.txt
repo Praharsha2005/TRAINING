@@ -1,0 +1,32 @@
+Types of functions :-
+
+1.Named function
+
+2.Anonymus function
+EX:- //anonymos fun.
+function(){
+    console.log("anonymous function is executing");
+}
+();
+
+3.Function expression :- An anonymus function body is assigned as a value to some variable and same function will be executed by invoking 
+
+
+4.IIFE (Immediate invoke function expression) :- 
+
+5.Arrow function :- It isintroduced in es6 version.It consice the normal function syntax. 
+
+
+
+
+
+
+*CURRENT VERSION OF JAVA SCRIPT IS es14.
+*es - ECMA script.
+*ECMA - european computer manufacturing association.
+*es6 feature is stable version of Java Script.
+
+
+
+
+
