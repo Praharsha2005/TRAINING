@@ -1,0 +1,119 @@
+create array of objects
+*************************
+
+
+
+what is object?
+- Object is an entity which contains states and behaviors.
+-states - properties , behaviour - functionality.
+- Object is an entity to store the values in the form key and value pair.
+
+synatax :-   let obj = {};
+ex :-   let userdetails ={
+        name:"Sam",
+        age:23
+        }
+
+Note: - Javascript is mainly object -based language till 2015 (es6) 
+- after es6 feature they added oops concept.
+
+JSON :- 
+*******
+- JSON stands for Javascript object notation.
+- JSON is a javscript technique used to transfer the data from client to server and server to client.
+
+syntax :-  
+
+js object :-
+************
+let a = {
+        name :"value",
+        age:25
+}
+
+json object:-
+*************
+{
+        "name" :"Sam",
+        "age" :25
+}
+
+- to create json file we have to create  a file with extension called
+        "filename.json".
+
+json methods:-
+**************
+1.JSON.stringify() :-it is used to convert JS obejct into json object.
+2.JSON.parse() :- it is used to convert json object into javascript object.
+
+Asynchronous in javascript:-
+****************************
+- to perform multiple task at a time.
+
+1.setTimeout() :- it is web api used to perform asyn operations with certain timeouts.
+syntax :-   setTimeout(callbackfn , timeout);
+
+2.setInterval() :- it is a web api used to perform async operation at every time interval specified.
+synatx :-  setInterval(callbackfn , timeout);
+
+3.promise :- Promise is an object which represents eventual completion or failures of async operations.
+        states of promise:-
+        1.pending state
+        2.fulfilled state
+        3.rejected state
+
+4.async & await
+
+note:- javscript is by default "Synchronous(single threaded)".
+
+
+
+
+
+
+
+
+
+
+
+NOTE;
+What is the default font size of the tags(h1… h6 , paragraph,... title headers and others.
+Dynamically adding the images to the HTML from JS.
+JSON
+It is abbreviated as javascript object notation.
+It’s a javascript tech used to transfer the data from clinett o the server
+Json object:
+Syntax:
+{
+“Name”:”manohar”
+}
+The key must be double quotes always and can be given inside the curly braces { //content }
+This is an external file to be created and can’t be directly performed inside the other files.
+Format: filename.json
+JSON.stringify() → it is used to convert JS objects into json objects.
+JSON.parse() → Parsing is used to convert a json object into a javascript object.
+
+Synchronous | Asynchronous in JS
+synchronous states that acting on a single task at once. And go to the next task only when task one is completed. Whereas the Asynchronous states perform multiple tasks at a time.
+Multiple threading; single threading are two methods:
+Single threading is achieved performing one task at a time. Javascript is single threaded by default. While the mutiple threading makes more tasks to be performed at once. JS allows multiple threading using Async.
+Asynchronous:
+Some keys that are defaulty available in the JS are:
+setTimeout() → It’s a web API performing Async operations with certain time out:
+Syntax: setTimeout(callbackfn, timeout);
+console.log(19); // its sets 
+console.log(33);
+setTimeout(()=>{
+    console.log(100);
+},1000)
+console.log(31);
+console.log(52);
+
+setInterval() → is making the action to perform recursively for a set of time.
+Promise
+It is an object represents eventual completion or failures
+States of promise:
+Pending state
+
+
+Async & and await
