@@ -1,0 +1,79 @@
+create array of objects
+*************************
+
+
+
+what is object?
+- Object is an entity which contains states and behaviors.
+-states - properties , behaviour - functionality.
+- Object is an entity to store the values in the form key and value pair.
+
+synatax :-   let obj = {};
+ex :-   let userdetails ={
+        name:"Sam",
+        age:23
+        }
+
+Note: - Javascript is mainly object -based language till 2015 (es6) 
+- after es6 feature they added oops concept.
+
+JSON :- 
+*******
+- JSON stands for Javascript object notation.
+- JSON is a javscript technique used to transfer the data from client to server and server to client.
+
+syntax :-  
+
+js object :-
+************
+let a = {
+        name :"value",
+        age:25
+}
+
+json object:-
+*************
+{
+        "name" :"Sam",
+        "age" :25
+}
+
+- to create json file we have to create  a file with extension called
+        "filename.json".
+
+json methods:-
+**************
+1.JSON.stringify() :-it is used to convert JS obejct into json object.
+2.JSON.parse() :- it is used to convert json object into javascript object.
+
+Asynchronous in javascript:-
+****************************
+- to perform multiple task at a time.
+
+1.setTimeout() :- it is web api used to perform asyn operations with certain timeouts.
+syntax :-   setTimeout(callbackfn , timeout);
+
+2.setInterval() :- it is a web api used to perform async operation at every time interval specified.
+synatx :-  setInterval(callbackfn , timeout);
+
+3.promise :- Promise is an object which represents eventual completion or failures of async operations.
+        states of promise:-
+        1.pending state
+        2.fulfilled state
+        3.rejected state
+
+syntax :-    let x = new Promise((resolve , reject)=>{});
+
+        to execute the promise we have instance methods:-
+                1.then() :- it is used to execute success or fulfilled state results.
+                2.catch() :- it is used to execute rejected state results.
+                3.finally() :- once promise is settled it will print for both success/failures
+
+4.async & await
+
+note:- javscript is by default "Synchronous(single threaded)".
+
+Create - POST
+Read - GET
+update - PUT
+Delete - Delete
