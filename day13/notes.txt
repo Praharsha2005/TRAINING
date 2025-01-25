@@ -1,0 +1,44 @@
+DOM :-
+******
+- DOM stands document object model.
+- DOM is a web api used to manipulate the html content.
+- DOM is used to add , remove ,update the content in the html document.
+
+DOM Methods:-
+*************
+1.document.getElementById("demo"):- it is used to select html element based on "id attribute" value.
+                              - with id attribute we can select only one element(unique element).
+
+2.document.getElementsByClassName("test"):-it is used to select html element based on "class attribute" value.
+                                      - with class attribute we can select multiple elements.
+
+3.document.getElementsByTagName(""):- it is used to select html elements based on their tag names.
+
+4.document.getelementsByName(""):- it is used to select the html elements based on "name attribute".
+
+
+- below methods used to select html elements based on "css selectors".
+5.document.querySelector("#id"):- this method is used to select only one element.
+6.document.querySelectorAll(".class"):- this method is used to select multiple elements.
+
+
+Events in DOM:-
+***************
+-events are nothing but an actions performed on the html element.
+-in dom , we have events like click events , mouse events and key events.
+
+click evenets :- onclick , ondblclick , onsubmit , onchange .
+
+mouse events :- mouseover , mouseleave
+
+key events :- keydown , keyup , keypress(deprocated).
+
+Dynamic creation of html element in js:-
+****************************************
+- to create html element in javascript , we use a method called as "document.createElement()".
+
+- by defualt elements created in js will not added to the document, so we have to add them explicitly by using a method called as "appendChild()"
+
+- to set the attributes we can use a method called as "setAttribute()".
+
+- to remove attribute we have  method "removeAttribute()"
